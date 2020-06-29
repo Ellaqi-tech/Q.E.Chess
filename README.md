@@ -1,4 +1,9 @@
 # wuziqigame
+ --in the process--
+=======================
+![start](public/start.png)
+
+![board](public/board.png)
 
 ## Project setup
 ```
