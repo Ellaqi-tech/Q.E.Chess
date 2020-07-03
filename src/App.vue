@@ -11,6 +11,8 @@
 
     <div class="game-intro">
       <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+      <!-- Source: https://www.w3schools.com/howto/howto_js_alert.asp
+      Accessed date: 27 Jun 2020 -->
       <h2>Game Rules</h2>
       <p class="gamerule">Black chess move first. White and black chess take turns. One side of the five pieces of the same colour connected horizontally and diagonally wins. 
       The traditional strategy is that black chess is mainly offensive, and white pieces are mostly of defence, but unexpected strategy always wins. <br>
