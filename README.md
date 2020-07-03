@@ -5,7 +5,7 @@
 ### Vue practice repo here: https://github.com/Ellaqi-tech/vuepractice <br>
 
 ### Main reference
-Sources: https://github.com/christinebittle/vuepractice <br>
+Source: https://github.com/christinebittle/vuepractice <br>
 Author: Christine Bittle
 
 ### Screenshoots
