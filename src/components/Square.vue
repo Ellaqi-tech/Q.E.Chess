@@ -5,7 +5,7 @@
       <div class="tile2"></div>
       <div class="tile3"></div>
       <div class="tile4"></div>
-      <Chessman v-on:click="showhidden()"></Chessman>
+      <Chessman></Chessman>
     </div>
 </template>
 
@@ -15,23 +15,7 @@ import Chessman from './Chessman'
 
 export default {
   name: 'Square',
-  components: {Chessman},
-  data: function() {
-        return {
-            //chessmanHidden: true,
-            show: false,
-        }
-    },
-    methods: {
-        showhidden: function() {
-            // if(this.chessmanHidden) {
-            //     this.chessmanHidden = false;
-            // } else {
-            //     this.chessmanHidden = true;
-            // }
-            alert("works");
-        }
-    }
+  components: {Chessman}
 }
 </script>
 

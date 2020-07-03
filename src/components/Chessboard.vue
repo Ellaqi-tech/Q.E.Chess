@@ -38,7 +38,7 @@
 
     <div class="centercontainer">
       <div class="rowcontainer" v-for="(item,index) in ros" :key="index">
-        <Square v-for="(item,index) in cols" :key="index"></Square>
+        <Square v-for="(item,index) in cols" :key="index" ></Square>
       </div>
     </div>
 
@@ -65,6 +65,10 @@ let model = {
   columns: 12,
   ros: [1,2,3,4,5,6,7,8,9,10,11,12,13],
   edgeros: [1,2,3,4,5,6,7,8,9,10,11,12,13,14],
+  // v-for part reference:  
+  //   Author: KiraYo4kage
+  //   Source: https://github.com/KiraYo4kage/vue-gomoku/blob/master/vue-gomoku/src/components/Play.vue
+  //   Date accessed: 27 Jun 2020
 }
 
 export default {
@@ -80,6 +84,7 @@ export default {
   },
 }
 </script>
+
 <style scoped>
 .button-container {
   position: fixed;

@@ -5,8 +5,8 @@
     <Chessboard msg="Wuziqi Game"/>
 
     <div class="chessbowlContainer">
-      <div class="sideChessman black"></div>
-      <div class="sideChessman white"></div>
+      <div class="sideChessman sideblack chessglow"></div>
+      <div class="sideChessman sidewhite"></div>
     </div>
 
     <div class="game-intro">
@@ -106,12 +106,15 @@ h1 {
   box-shadow: 3px 3px 6px black;
   position: relative;
 }
-.white {
+.sidewhite {
   margin-top: 15em;
- background: radial-gradient(circle at 65% 15%, rgb(240, 239, 239) 3px, rgb(227, 228, 228) 3%, rgb(252, 252, 252) 60%, rgb(80, 79, 79) 100%);  
+  background: radial-gradient(circle at 65% 15%, rgb(240, 239, 239) 3px, rgb(227, 228, 228) 3%, rgb(252, 252, 252) 60%, rgb(80, 79, 79) 100%);  
 }
-.black {
+.sideblack {
  background: radial-gradient(circle at 65% 15%, rgb(128, 127, 127) 3px, rgb(116, 117, 117) 3%, black 60%, rgb(54, 54, 54) 100%); 
+}
+
+.chessglow {
  box-shadow: 0px 0px 30px 10px snow; 
  animation: chessglow 1s infinite alternate;
 }
