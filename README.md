@@ -1,6 +1,14 @@
 # wuziqigame
  --in the process--
 =======================
+
+### Vue practice repo here: https://github.com/Ellaqi-tech/vuepractice <br>
+
+### Main reference
+Sources: https://github.com/christinebittle/vuepractice <br>
+Author: Christine Bittle
+
+### Screenshoots
 ![start](public/start.png)
 
 ![board](public/board.png)
@@ -28,6 +36,4 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-### Main reference
-Sources: https://github.com/christinebittle/vuepractice <br>
-Author: Christine Bittle
+
